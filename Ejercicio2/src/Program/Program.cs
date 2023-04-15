@@ -9,10 +9,10 @@ namespace Program
         {
 
             
-            Paciente persona1 = new Paciente("Juan","54257051","50","099237485");
+            Paciente persona1 = new Paciente("Juan","54257051","50");
             Doctor doctor1 = new Doctor("Jose","Cardiologo");
 
-            Paciente persona2 = new Paciente("Miguel","53146041","23","097513523");
+            Paciente persona2 = new Paciente("Miguel","53146041","23");
             Doctor doctor2 = new Doctor("Andres","Gastroenterologo");
 
 

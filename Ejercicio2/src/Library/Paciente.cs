@@ -8,11 +8,11 @@ namespace Library
         public string nombre { get; set;}
         public string id {get; set;}
         public string edad {get;set;}
-        public string phoneNumber {get;set;}
+
 
         
 
-        public Paciente(String nombre, String id, String edad, String phoneNumber)
+        public Paciente(String nombre, String id, String edad)
         {
             Console.WriteLine("Se esta creando un paciente");
 
@@ -35,18 +35,13 @@ namespace Library
                 isValid = false;
             }
 
-            if (string.IsNullOrEmpty(phoneNumber))
-            {
-                Console.WriteLine("El numero de telefono no es valido");
-                isValid = false;
-            }
 
 
             if (isValid) {
             this.nombre = nombre;
             this.id = id;
             this.edad = edad;
-            this.phoneNumber = phoneNumber;
+
             Console.WriteLine("El paciente se creo correctamente");
             }
             
